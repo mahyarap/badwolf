@@ -325,8 +325,8 @@ call s:HL('DiffText',   'snow', 'deepergravel', 'bold')
 " Spelling {{{
 
 if has("spell")
-    call s:HL('SpellCap', 'dalespale', 'bg', 'undercurl,bold', 'dalespale')
-    call s:HL('SpellBad', '', 'bg', 'undercurl', 'dalespale')
+    call s:HL('SpellCap', 'coal', 'dalespale', '', 'dalespale')
+    call s:HL('SpellBad', 'snow', 'taffy', '', 'dalespale')
     call s:HL('SpellLocal', '', '', 'undercurl', 'dalespale')
     call s:HL('SpellRare', '', '', 'undercurl', 'dalespale')
 endif
