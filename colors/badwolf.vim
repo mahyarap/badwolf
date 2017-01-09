@@ -263,7 +263,7 @@ call s:HL('Keyword',     'taffy', '', 'bold')
 call s:HL('Conditional', 'taffy', '', 'bold')
 call s:HL('Operator',    'taffy', '', 'none')
 call s:HL('Label',       'taffy', '', 'none')
-call s:HL('Repeat',      'taffy', '', 'none')
+call s:HL('Repeat',      'taffy', '', 'bold')
 
 " Functions and variable declarations are orange, because plain looks weird.
 call s:HL('Identifier', 'orange', '', 'none')
